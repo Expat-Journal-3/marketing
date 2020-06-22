@@ -171,4 +171,29 @@ h1 {
 
 #imageCont img {
     border-radius: 50%;
+    
+}
+
+#names{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    
+    
+}
+
+#names p{
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 1%;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 5rem;
+    
+    
+    
+}
+
+#names p:hover {
+    color: darkorange;
+    
 }

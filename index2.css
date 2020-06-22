@@ -171,6 +171,7 @@ h1 {
 
 #imageCont img {
     border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
     
 }
 

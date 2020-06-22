@@ -126,6 +126,7 @@ nav a:hover {
   background-size: cover;
   background-position: center;
   margin-top: 10%;
+  box-shadow: 0px 0px 20px black;
     
 }
 
@@ -196,5 +197,9 @@ h1 {
 
 #names p:hover {
     color: darkorange;
+    
+}
+#imageCont img:hover {
+    transform: scaleX(-1);
     
 }

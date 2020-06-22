@@ -153,4 +153,33 @@ nav a:hover {
       -webkit-transition-delay: .3s;
   }
 
-  
+  /* breakpoint for different media sizes */
+
+  @media (max-width: 500px) {
+    .buttons a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: 25%;
+      }
+
+
+
+
+
+    }
+    @media (max-width: 800px) {
+        .buttons a {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            height: 25%;
+          }
+    
+    
+    
+    
+          
+        }

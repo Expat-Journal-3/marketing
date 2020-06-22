@@ -163,3 +163,12 @@ h1 {
     transition-delay: .3s;
   
 }
+
+#imageCont {
+    display:flex;
+    justify-content: space-around;
+}
+
+#imageCont img {
+    border-radius: 50%;
+}

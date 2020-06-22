@@ -144,7 +144,11 @@ nav a:hover {
       line-height: 7rem;
       text-shadow: 2px 2px 4px #000000;
       text-align: center;
+      
   }
   #info:hover {
       color: dimgray;
+      opacity:0.4;
+      transition-delay: .3s;
+      -webkit-transition-delay: .3s;
   }

@@ -134,11 +134,13 @@ a {
   font-size: 2.1rem;
   font-family:"Cambay Devanagari";
   text-align: center;
-  border: 4px solid #075fab98;
-  padding-top: 1.5rem;
+  border: 3px solid #075fab98;
   height: 10vh;
   border-radius: 18px;
   background-color: white;
+  box-shadow: 1px 3px 5px #d0caca;
+  padding: 1.5rem 1.5rem 0rem 1.5rem;
+  /* add padding at bottom for smaller sizes*/
 }
 .secondaryHeaderText{
   /* border: 2px solid red; */
@@ -146,6 +148,25 @@ a {
   display: flex;
   flex-wrap: wrap;
   height: 40vh;
+}
+.mainSection{
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+.mainImg{
+  width: 60%;
+  /* border: 2px solid red; */
+  margin-top: 8rem;
+}
+.mainText{
+  width: 60%;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0rem 3rem 0rem;
 }
 .breakBar{
   width: 95%;
@@ -159,9 +180,14 @@ a {
   padding-bottom: 4rem;
 }
 .footerContainer{
-  width: 25%;
+  width: 35%;
   /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
+}
+.footerIcons{
+  width:3.5%;
+  height: 5%;
+  margin-left: 1.5rem;
 }

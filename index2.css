@@ -195,7 +195,7 @@ h1:hover {
 
 /* breakpoints for different media sizes */
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   h1 {
     text-align: center;
     position: absolute;

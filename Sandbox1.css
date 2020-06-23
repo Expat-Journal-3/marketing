@@ -103,6 +103,7 @@ a {
   height: 60vh;
   border-radius: 12px;
   padding-right: 1rem;
+  align-self: flex-end;
 }
 .headerImg{
   width: 100%;
@@ -133,8 +134,8 @@ a {
   font-size: 2.1rem;
   font-family:"Cambay Devanagari";
   text-align: center;
-  border: 6px solid #075fab98;
-  padding-top: 2rem;
+  border: 4px solid #075fab98;
+  padding-top: 1.5rem;
   height: 10vh;
   border-radius: 18px;
   background-color: white;

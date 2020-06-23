@@ -165,7 +165,11 @@ nav a:hover {
     @media (max-width: 800px) {
 
         body {
+            width: 100%;
             height: 100vh;
+            background-image: url('20150708_144900.jpg');   
+            background-size: cover; 
+            background-repeat: no-repeat;
         }
         h1 {
             text-align:center;
@@ -198,7 +202,11 @@ nav a:hover {
 
         @media (max-width: 500px) {
             body {
+                width: 100%;
                 height: 100vh;
+                background-image: url('20150708_144900.jpg');   
+                background-size: cover; 
+                background-repeat: no-repeat;
             }
             html {
                 background-size: cover;

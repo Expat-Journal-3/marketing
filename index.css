@@ -90,9 +90,15 @@ video {
 
 html {
   font-size: 62.5%;
+  
 }
 body {
     width: 100%;
+    height: 100vh;
+    background-image: url('20150708_144900.jpg');   
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
 }
 nav a {
     background-color: #555555; 
@@ -157,6 +163,10 @@ nav a:hover {
 
 
     @media (max-width: 800px) {
+
+        body {
+            height: 100vh;
+        }
         h1 {
             text-align:center;
             position: absolute;
@@ -181,17 +191,15 @@ nav a:hover {
             text-align: center;
             
         }
-    html {
-        background-image: image("20150708_144900.jpg");
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
+
     
           
         }
 
         @media (max-width: 500px) {
-            
+            body {
+                height: 100vh;
+            }
             html {
                 background-size: cover;
                 background-repeat: no-repeat;

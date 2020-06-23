@@ -117,16 +117,32 @@ a {
   display: flex;
   flex-direction: column;
   width:59%;
-  height: 85%;
+  height: 90%;
   justify-content: center;
   justify-content: space-around;
+  align-items: center;
 }
 .headerText h1{
   font-size: 3.8rem;
   margin-left: .8rem;
-  font-family:"Seravek";
+  font-family:"Cambay Devanagari";
+  align-self: center;
+  /* font-variant: small-caps; */
 }
 .headerText h2{
-  font-size: 2rem;
-  font-family:"Seravek";
+  font-size: 2.1rem;
+  font-family:"Cambay Devanagari";
+  text-align: center;
+  border: 6px solid #075fab98;
+  padding-top: 2rem;
+  height: 10vh;
+  border-radius: 18px;
+  background-color: white;
+}
+.secondaryHeaderText{
+  /* border: 2px solid red; */
+  width: 62%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 40vh;
 }

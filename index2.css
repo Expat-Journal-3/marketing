@@ -240,8 +240,8 @@ h1:hover {
   #imageCont img {
     border-radius: 50%;
     box-shadow: 5px 5px 10px black;
-    width: 10%;
-    height: 10%;
+    width: 90%;
+    height: 90%;
   }
 
   #names p {
@@ -263,7 +263,7 @@ h1:hover {
         text-align: center;
         margin-right: 10%;
         margin-bottom: 65%;
-        margin-top: -38%;
+        margin-top: -50%;
       }
   
     h1 {
@@ -290,6 +290,12 @@ h1:hover {
     margin-left: 2%;
     
     
+  }
+  #imageCont img {
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+    width: 90%;
+    height: 90%;
   }
 
   footer {

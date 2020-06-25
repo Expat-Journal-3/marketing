@@ -197,7 +197,17 @@ h1:hover {
 #imageCont img:hover {
   transform: scaleX(-1);
 }
-
+#ps {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#ps:hover {
+  color: orange;
+}
 /* breakpoints for different media sizes */
 
 @media (max-width: 800px) {
@@ -236,7 +246,7 @@ h1:hover {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin-top: -65%;
+    margin-top: -70%;
   }
   #imageCont {
     display: flex;
@@ -254,6 +264,14 @@ h1:hover {
     height: 100%;
     font-size: 1.6rem;
     line-height: 2.5rem;
+  }
+  #ps {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 6%;
+    
   }
 }
 
@@ -290,7 +308,7 @@ h1:hover {
     color: white;
     text-align: center;
     line-height: 2rem;
-    margin-top: 5%;
+    margin-top: 35%;
   }
   #names {
     display: flex;
@@ -301,6 +319,7 @@ h1:hover {
     
     
   }
+ 
   #imageCont img {
     border-radius: 50%;
     box-shadow: 5px 5px 10px black;
@@ -310,6 +329,14 @@ h1:hover {
 
   footer {
       margin-top: 10%;
+  }
+  #ps {
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 6%;
+    
   }
 
 }

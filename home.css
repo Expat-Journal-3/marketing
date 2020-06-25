@@ -110,14 +110,14 @@ nav a {
     display: inline-block;
     font-size: 2rem;
     margin: 1% 1% 1% 1%;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 8px orange;
     text-shadow: 2px 2px 4px #000000;
     
 }
 
 nav a:hover {
-    background-color: darkgrey; 
-    color: black;
+    background-color: gray; 
+    color: orange;
   }
 
   nav {

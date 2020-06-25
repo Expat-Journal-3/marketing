@@ -205,13 +205,15 @@ a {
   height: 70vh;
   margin-left: 1%;
   border-radius: 36px;
+  align-self: flex-end;
   /* border: 2px solid blue; */
 }
 #meetOurTeamLogo{
-  width:20%;
-  height: 40vh;
+  width:30%;
+  height: 50vh;
   /* border: 2px solid blue; */
-  margin-right: 6%;
+  margin-right: 8%;
+  margin-top: 5%
 }
 .nameNav{
   display: flex;
@@ -235,7 +237,9 @@ a {
   display: flex;
 }
 .aboutDivisions{
+  margin: 5rem 0rem;
   border: 0;
+  width: 95%;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
@@ -250,3 +254,42 @@ a {
   flex-direction: column;
   align-items: center;
 }
+.teamMemberSubsection img{
+  border-radius: 14px;
+  position: relative;
+  z-index: 3;
+}
+
+#aboutUpperBreak{
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  /* border-color: darkgrey; */
+}
+.personalLinkLogos{
+  display: flex;
+}
+.circles {
+  position: relative;
+  right: 6rem;
+  width: 30rem;
+  height: 30rem;
+  margin: 1rem;
+  shape-outside: circle();
+  clip-path: circle();
+  background: lightblue;
+  z-index: 2;
+}
+.teamFormatting{
+  width: 30%;
+  height: 100%;
+  border: 2px solid red;
+}
+.teamFormatting img{
+  width: 100%;
+  height: 100%;
+}
+/* .teamFormatting #emilySection{
+  width: 20%;
+  height: 5vh;
+  border: 2px solid red;
+} */

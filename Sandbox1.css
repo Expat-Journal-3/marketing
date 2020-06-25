@@ -235,6 +235,48 @@ a {
 }
 .teamMemberSubsection{
   display: flex;
+  width: 80%;
+}
+#tiffanySection, .teamFormatting{
+width: 70%;
+/* border: 2px solid green; */
+}
+#micherreSection, .teamFormatting{
+  width: 70%;
+  /* border: 2px solid purple; */
+  }
+#micherreLogos{
+  justify-content: space-evenly;
+}
+#shantelLogos{
+  justify-content: space-evenly;
+}
+#shantelSection{
+  width:70%;
+}
+#anatoliyLogos{
+  justify-content: center;
+}
+#anatoliySection{
+  width: 70%;
+}
+#emilySection{
+  width: 70%;
+}
+#emilyLogos{
+  justify-content: center;
+}
+#harrisonSection{
+  width:70%;
+}
+#harrisonLogos{
+  justify-content: center;
+}
+#karinaSection{
+  width:70%;
+}
+#karinaLogos{
+  justify-content: center;
 }
 .aboutDivisions{
   margin: 5rem 0rem;
@@ -245,14 +287,19 @@ a {
 }
 .teamMemberSubsection h1{
   font-size: 5rem;
+  font-family:"Cambay Devanagari";
 }
 .teamMemberSubsection h2{
-  font-size: 3rem;
+  margin-top: .7rem;
+  font-size: 2rem;
+  font-family:"Cambay Devanagari";
 }
 .aboutTitles{
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* border: 2px solid blue; */
+  width:40%;
 }
 .teamMemberSubsection img{
   border-radius: 14px;
@@ -267,7 +314,22 @@ a {
 }
 .personalLinkLogos{
   display: flex;
+  justify-content: space-between;
+  width: 45%;
+  height: 15%;
+  /* border: 2px solid red; */
 }
+.singularLogo{
+  width: 28%;
+  height: 100%;
+  margin-top: .5rem;
+  /* border: 2px solid blue; */
+}
+.singularLogo img{
+  width: 100%;
+  height: 100%;
+}
+
 .circles {
   position: relative;
   right: 6rem;
@@ -276,13 +338,24 @@ a {
   margin: 1rem;
   shape-outside: circle();
   clip-path: circle();
-  background: lightblue;
+  background: rgba(173, 216, 230, 0.507);
+  z-index: 2;
+}
+.circlesAlt {
+  position: relative;
+  right: 15rem;
+  width: 30rem;
+  height: 30rem;
+  margin: 1rem;
+  shape-outside: circle();
+  clip-path: circle();
+  background: #e98d69a6;
   z-index: 2;
 }
 .teamFormatting{
-  width: 30%;
+  width: 25%;
   height: 100%;
-  border: 2px solid red;
+  /* border: 2px solid green; */
 }
 .teamFormatting img{
   width: 100%;

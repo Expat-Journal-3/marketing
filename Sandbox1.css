@@ -107,7 +107,7 @@ a {
 }
 .headerImg{
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: row-reverse;
   justify-self: flex-end;
@@ -124,54 +124,127 @@ a {
   align-items: center;
 }
 .headerText h1{
-  font-size: 3.8rem;
+  font-size: 4.4rem;
+  margin-top: 1rem;
   margin-left: .8rem;
   font-family:"Cambay Devanagari";
   align-self: center;
+  color: rgb(66, 66, 66);
   /* font-variant: small-caps; */
 }
-.headerText h2{
-  font-size: 2.1rem;
+.headerSubtitleTwo{
+  font-size: 2.6rem;
+  font-family:"Seravek";
+  text-align: center;
+  /* border: 1px solid #075fab98;*/
+  height: 9vh;
+  /* box-shadow: 1px 3px 5px #d0caca; */
+  width: 21%;
+  position: absolute;
+  z-index: 3;
+  align-self: flex-end;
+  margin-left: 26rem;
+  color: rgb(66, 66, 66);
+  /* add padding at bottom for smaller sizes*/
+}
+.headerSubtitleOne{
+  font-size: 2.6rem;
   font-family:"Cambay Devanagari";
   text-align: center;
-  border: 3px solid #075fab98;
-  height: 10vh;
-  border-radius: 18px;
-  background-color: white;
-  box-shadow: 1px 3px 5px #d0caca;
-  padding: 1.5rem 1.5rem 0rem 1.5rem;
+  /* border: 1px solid #075fab98; */
+  height: 15vh;
+  /* box-shadow: 1px 3px 5px #d0caca; */
+  width: 22%;
+  position: absolute;
+  z-index: 3;
+  margin-top: 1rem;
+  color: rgb(66, 66, 66);
   /* add padding at bottom for smaller sizes*/
 }
 .secondaryHeaderText{
   /* border: 2px solid red; */
-  width: 62%;
+  width: 69%;
   display: flex;
   flex-wrap: wrap;
   height: 40vh;
+  /* border: 2px solid red; */
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+  color: rgb(66, 66, 66);
+}
+.firstLetter{
+  font-size: 4rem;
 }
 .mainSection{
   width: 100%;
   display: flex;
-  /* justify-content: center; */
-  flex-direction: column;
+  justify-content: center;
+  /* flex-direction: column; */
   align-items: center;
 }
 .mainImg{
-  width: 60%;
+  width: 45%;
   /* border: 2px solid red; */
-  margin-top: 8rem;
+  margin: 4rem 0rem;
+
 }
 .mainText{
+  width: 40%;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 2rem 4rem 4rem;
+  font-family:"Seravek";
+  font-weight: lighter;
+}
+.breakBar{
+  width: 95%;
+  border: .5px solid rgb(172, 171, 171);
+  margin-top: 2rem;
+}
+.howToSection{
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+}
+.howToBannerImg{
+  width: 60%;
+  margin: 6rem 0rem 2rem 0rem;
+}
+.howToHeader{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 4.5rem 0rem;
+  font-size: 3.5rem;
+  letter-spacing: .2rem;
+  font-weight: bold;
+  font-family:"Seravek";
+  color: rgb(66, 66, 66);
+}
+.howToBannerText{
   width: 60%;
   margin-top: 1rem;
   font-size: 2rem;
   text-align: center;
-  margin: 2rem 0rem 3rem 0rem;
+  margin: 2rem 0rem 4rem 0rem;
+  color: rgb(66, 66, 66);
 }
-.breakBar{
-  width: 95%;
-  border: 1px solid black;
-  margin-top: 2rem;
+.focusLink{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.focusLinkButton{
+  padding: 1rem 2.7rem;
+  background-color: #075fabd0;
+  border-radius: 4px;
+}
+.focusLinkButton a{
+  color: white;
+  font-size: 1.8rem;
+  font-family:"Cambay Devanagari";
 }
 #footerNav {
   width: 100%;
@@ -198,7 +271,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(223, 222, 222, 0), rgba(223, 222, 222, 0.615));
+  background-image: linear-gradient(rgba(245, 244, 244, 0), rgba(241, 241, 241, 0.774));
+  margin-bottom: 14rem;
 }
 #about1{
   width: 45%;
@@ -215,19 +289,6 @@ a {
   margin-right: 8%;
   margin-top: 5%
 }
-.nameNav{
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #075fab98;
-  font-size: 3rem;
-  line-height: 5rem;
-  padding: 1.5rem 1rem;
-  margin-left: 5%;
-  font-family:"Cambay Devanagari";
-  border-radius: 12px;
-  box-shadow: 1px 3px 5px #d0caca;
-  background-color: rgba(255, 255, 255, 0.651);
-}
 .aboutTeam{
   display: flex;
   flex-direction: column;
@@ -237,11 +298,11 @@ a {
   display: flex;
   width: 80%;
 }
-#tiffanySection, .teamFormatting{
+#tiffanySection{
 width: 70%;
 /* border: 2px solid green; */
 }
-#micherreSection, .teamFormatting{
+#micherreSection{
   width: 70%;
   /* border: 2px solid purple; */
   }
@@ -262,28 +323,41 @@ width: 70%;
 }
 #emilySection{
   width: 70%;
+  /* border: 2px solid red; */
 }
 #emilyLogos{
   justify-content: center;
 }
 #harrisonSection{
   width:70%;
+  /* border: 2px solid red; */
 }
 #harrisonLogos{
-  justify-content: center;
+  justify-content: space-evenly;
+  height: 15%;
 }
 #karinaSection{
   width:70%;
+  /* border: 2px solid red; */
+  height: 42vh;
 }
 #karinaLogos{
   justify-content: center;
+  height: 20%;
+  /* border: 2px solid blue; */
+}
+#karinaPhoto{
+  height: 84.7%;
+}
+#harrisonPhoto img{
+  height: 256.72px;
 }
 .aboutDivisions{
   margin: 5rem 0rem;
   border: 0;
   width: 95%;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0));
 }
 .teamMemberSubsection h1{
   font-size: 5rem;
@@ -293,6 +367,7 @@ width: 70%;
   margin-top: .7rem;
   font-size: 2rem;
   font-family:"Cambay Devanagari";
+  /* border: 2px solid pink; */
 }
 .aboutTitles{
   display: flex;
@@ -301,22 +376,23 @@ width: 70%;
   /* border: 2px solid blue; */
   width:40%;
 }
+#harrisonAbout{
+  margin-right: 7rem;
+}
+#karinaAbout{
+  margin-left: 4.3rem;
+}
 .teamMemberSubsection img{
   border-radius: 14px;
   position: relative;
   z-index: 3;
 }
 
-#aboutUpperBreak{
-  margin-top: 3rem;
-  margin-bottom: 10rem;
-  /* border-color: darkgrey; */
-}
 .personalLinkLogos{
   display: flex;
   justify-content: space-between;
   width: 45%;
-  height: 15%;
+  height: 18%;
   /* border: 2px solid red; */
 }
 .singularLogo{
@@ -333,8 +409,8 @@ width: 70%;
 .circles {
   position: relative;
   right: 6rem;
-  width: 30rem;
-  height: 30rem;
+  width: 25rem;
+  height: 25rem;
   margin: 1rem;
   shape-outside: circle();
   clip-path: circle();
@@ -344,9 +420,54 @@ width: 70%;
 .circlesAlt {
   position: relative;
   right: 15rem;
-  width: 30rem;
-  height: 30rem;
+  width: 25rem;
+  height: 25rem;
   margin: 1rem;
+  shape-outside: circle();
+  clip-path: circle();
+  background: #e98d69a6;
+  z-index: 2;
+}
+#anatoliyCircle{
+  right: 36rem;
+  bottom: 8rem;
+}
+#harrisonCircle{
+  right: 27rem;
+  width: 30rem;
+  height:30rem;
+}
+#karinaCircle{
+  bottom: 8rem;
+  width:20rem;
+  height:20rem;
+}
+#micherreCircle{
+  top: 4rem;
+  right: 12rem;
+}
+#shantelCircle{
+  right: 35rem;
+}
+.circleMainOne {
+  position: relative;
+  right: 3rem;
+  width: 15rem;
+  height: 15rem;
+  /* margin: 1rem; */
+  bottom: 3rem;
+  shape-outside: circle();
+  clip-path: circle();
+  background: #e98d69a6;
+  z-index: 2;
+}
+.circleMainTwo {
+  position: relative;
+  left: 22rem;
+  width: 19rem;
+  height: 19rem;
+  top: 15rem;
+  /* margin: 1rem; */
   shape-outside: circle();
   clip-path: circle();
   background: #e98d69a6;
@@ -361,8 +482,8 @@ width: 70%;
   width: 100%;
   height: 100%;
 }
-/* .teamFormatting #emilySection{
-  width: 20%;
-  height: 5vh;
-  border: 2px solid red;
-} */
+/* fix logo cutoff
+   media queries for both pages
+   fill in lorem ipsums on landing page
+   add paralex and greensock to pages 
+   comb through html to make it semantic and css to group and comment cleanly*/

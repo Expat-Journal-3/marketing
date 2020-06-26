@@ -125,41 +125,13 @@ a {
 }
 .headerText h1{
   font-size: 4.4rem;
-  margin-top: 1rem;
+  margin-top: 26rem;
   margin-left: .8rem;
   font-family:"Cambay Devanagari";
   align-self: center;
-  color: rgb(66, 66, 66);
+  color: black;
+  z-index: 3;
   /* font-variant: small-caps; */
-}
-.headerSubtitleTwo{
-  font-size: 2.6rem;
-  font-family:"Seravek";
-  text-align: center;
-  /* border: 1px solid #075fab98;*/
-  height: 9vh;
-  /* box-shadow: 1px 3px 5px #d0caca; */
-  width: 21%;
-  position: absolute;
-  z-index: 3;
-  align-self: flex-end;
-  margin-left: 26rem;
-  color: rgb(66, 66, 66);
-  /* add padding at bottom for smaller sizes*/
-}
-.headerSubtitleOne{
-  font-size: 2.6rem;
-  font-family:"Cambay Devanagari";
-  text-align: center;
-  /* border: 1px solid #075fab98; */
-  height: 15vh;
-  /* box-shadow: 1px 3px 5px #d0caca; */
-  width: 22%;
-  position: absolute;
-  z-index: 3;
-  margin-top: 1rem;
-  color: rgb(66, 66, 66);
-  /* add padding at bottom for smaller sizes*/
 }
 .secondaryHeaderText{
   /* border: 2px solid red; */
@@ -173,7 +145,7 @@ a {
   color: rgb(66, 66, 66);
 }
 .firstLetter{
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .mainSection{
   width: 100%;
@@ -192,7 +164,7 @@ a {
   width: 40%;
   margin-top: 1rem;
   font-size: 2.5rem;
-  text-align: center;
+  text-align: left;
   margin: 2rem 2rem 4rem 4rem;
   font-family:"Seravek";
   font-weight: lighter;
@@ -224,12 +196,20 @@ a {
   color: rgb(66, 66, 66);
 }
 .howToBannerText{
-  width: 60%;
+  width: 50%;
   margin-top: 1rem;
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
   margin: 2rem 0rem 4rem 0rem;
   color: rgb(66, 66, 66);
+  line-height: 2.5rem;
+}
+.howToBannerText p{
+  margin: 1.5rem 0rem;
+  font-family:"Seravek";
+}
+.everyOtherBullet{
+  margin-left: 10rem;
 }
 .focusLink{
   width: 100%;
@@ -451,11 +431,11 @@ width: 70%;
 }
 .circleMainOne {
   position: relative;
-  right: 3rem;
+  right: 9rem;
   width: 15rem;
   height: 15rem;
   /* margin: 1rem; */
-  bottom: 3rem;
+  bottom: 14rem;
   shape-outside: circle();
   clip-path: circle();
   background: #e98d69a6;
@@ -463,11 +443,23 @@ width: 70%;
 }
 .circleMainTwo {
   position: relative;
-  left: 22rem;
+  left: 26rem;
   width: 19rem;
   height: 19rem;
-  top: 15rem;
+  top: 1rem;
   /* margin: 1rem; */
+  shape-outside: circle();
+  clip-path: circle();
+  background: #e98d69a6;
+  z-index: 2;
+}
+.circleMainThree {
+  position: relative;
+  right: 9rem;
+  width: 15rem;
+  height: 15rem;
+  /* margin: 1rem; */
+  bottom: 14rem;
   shape-outside: circle();
   clip-path: circle();
   background: #e98d69a6;
@@ -482,8 +474,159 @@ width: 70%;
   width: 100%;
   height: 100%;
 }
+@media (max-width: 500px){
+  .logo{
+    width: 20%;
+    height: 20%;
+    /* border: 2px solid red; */
+  }
+  .logo img{
+    width: 100%;
+    height: 100%;
+  }
+  .topBar{
+    flex-wrap: wrap;
+    /* border: 2px solid orange; */
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .navBar{
+    /* border: 2px solid blue; */
+    width: 70%;
+    margin-left: 2.95rem;
+  }
+  .credentials{
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 2px solid purple; */
+    margin-right: 3rem;
+  }
+  #signUp{
+    width: 100%;
+    /* border: 2px solid green; */
+    text-align: center;
+  }
+  #logIn{
+    width: 100%;
+    /* border: 2px solid green; */
+    text-align: center;
+  }
+  .headerImg{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: 80vh;
+    /* border: 2px solid greenyellow; */
+    width: 100%;
+  }
+  .justHeaderImg{
+    height: 40vh;
+    /* border: 2px solid red; */
+    width:85%;
+    align-content: center;
+  }
+  .justHeaderImg img{
+    height:100%;
+    width: 70%;
+  }
+  .headerText{
+    margin-top: 0rem;
+    height: 28vh;
+    margin-left: .5rem;
+    /* border: 2px solid blue; */
+  }
+  .headerText h1{
+    margin-top: 0rem;
+    height: 28vh;
+    margin-left: 0rem;
+    /* border: 2px solid orange; */
+  }
+  .secondaryHeaderText{
+    display: inline;
+  }
+  .howToBannerImg{
+    margin: 3rem 0rem 2rem 0rem;
+    width: 80%;
+  }
+  .howToHeader{
+    margin: 2.5rem 0rem 1rem 0rem;
+  }
+  .howToBannerText{
+    width: 70%;
+  }
+  .mainSection{
+    flex-direction: column;
+  }
+  .mainImg{
+    width: 75%;
+  }
+  .mainText{
+    width: 70%;
+  }
+  .footerContainer{
+    width: 100%;
+    /* border: 2px solid greenyellow; */
+  }
+  #footerNav{
+    width: 80%;
+    margin-left: 4.5rem;
+  }
+  .aboutBanner{
+    height:50vh;
+  }
+  #about1{
+    height: 40vh;
+  }
+  .aboutTitles h1{
+    font-size: 2.8rem;
+  }
+  .aboutTitles{
+    /* border: 2px solid green; */
+    width:60%;
+  }
+  .teamFormatting{
+    /* border: 2px solid blue; */
+    width: 50%;
+  }
+  .teamMemberSubsection{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+  .circlesAlt{
+    display: none;
+  }
+  .circles{
+  display: none;
+  }
+  #harrisonAbout{
+    margin-right: 0rem;
+  }
+  #karinaAbout{
+    margin-left: 0rem;
+  }
+  #harrisonSection{
+    width:70%;
+    /* border: 2px solid red; */
+  }
+  #harrisonLogos{
+    height: 13%;
+  }
+  #karinaSection{
+    width:70%;
+    /* border: 2px solid red; */
+    height: auto;
+  }
+  #karinaLogos{
+    height: 13%;
+    /* border: 2px solid blue; */
+  }
+  #karinaPhoto{
+    height: 100%;
+  }
+  #harrisonPhoto img{
+    height: 155px;
+  }
+}
 /* fix logo cutoff
-   media queries for both pages
-   fill in lorem ipsums on landing page
    add paralex and greensock to pages 
    comb through html to make it semantic and css to group and comment cleanly*/
